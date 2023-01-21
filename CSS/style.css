@@ -1,0 +1,237 @@
+body {
+  font-family: "Bai Jamjuree";
+}
+
+/* header */
+.header-img {
+  position: absolute;
+  width: 100%;
+}
+
+.intro-header {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 1560px 363px;
+  text-align: center;
+  padding: 10% 10%;
+}
+
+h3 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h1 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  padding-bottom: 2%;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.header-text {
+  padding: 7% 15% 2% 15%;
+  line-height: 1.5;
+}
+
+.btn {
+  border-radius: 28px;
+  border-style: none;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  margin: 1%;
+  box-shadow: 0px 3px #1aa18b, 0px 3px 10px hsl(171, 66%, 44%);
+}
+
+.ios:hover {
+  background-color: #5dccbb;
+  box-shadow: 0px 3px #52b7a7, 0px 3px 10px #5dccbb;
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  margin: 0.5%;
+  box-shadow: 0px 3px #4f63de, 0px 3px 10px hsl(233, 100%, 69%);
+}
+
+.mac:hover {
+  background-color: #8896ff;
+  box-shadow: 0px 3px #7987e7, 0px 3px 10px #8896ff;
+}
+
+/* intro */
+.intro {
+  padding: 2% 20% 5%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* features */
+.computer-image {
+  position: relative;
+  left: -50px;
+}
+
+.feature-text {
+  padding: 3% 8% 3% 5%;
+  line-height: 1.5;
+}
+
+/* access */
+.access {
+  text-align: center;
+  padding: 13% 0 2%;
+}
+
+.access-text {
+  padding: 0 20%;
+  line-height: 1.5;
+}
+
+.devices-image {
+  padding: 7% 0;
+}
+
+/* features-section */
+.features-section {
+  text-align: center;
+  padding: 3% 9%;
+  line-height: 2;
+}
+
+.feature-col {
+  padding: 5% 1%;
+}
+
+.feature-section-icon {
+  padding: 5% 5% 10%;
+}
+
+.feature-section-img {
+  padding: 4%
+}
+
+/* cta */
+.cta-section {
+  text-align: center;
+  line-height: 1.5;
+  width: 55%;
+  margin: 5% auto;
+}
+
+/* end section */
+.end-section {
+  background-color: #f5f6f8;
+  padding: 4%;
+}
+
+.end-section-icon {
+  padding: 5%;
+}
+
+.end-img {
+  width: 30%;
+  padding: : auto;
+}
+
+.end-img-col {
+  width: 20%;
+  text-align: center;
+}
+
+.end-icon-col {
+  width: 20%;
+  text-align: center;
+}
+
+.end-words-col {
+  width: 60%;
+}
+
+@media (max-width : 1028px) {
+  .intro-header {
+    background-image: url("../images/bg-header-Mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 25% 0;
+  }
+
+  .mac {
+    padding: 3% 20%;
+    margin: 5%;
+  }
+
+  .ios {
+    padding: 3% 20%;
+  }
+
+  .intro {
+    padding: 2% 11% 5%;
+    margin: 0 auto;
+  }
+
+  .computer-image {
+    left: auto;
+    width: 80%;
+    margin: 5% auto 5% 10%;
+  }
+
+  .feature-text {
+    text-align: center;
+    margin: 5% auto 5% 2%;
+  }
+
+  .access {
+    padding: 0% 0 2%;
+    margin: 0 auto;
+  }
+
+  .access-text {
+    padding: 0 10%;
+  }
+
+  .devices-image {
+    width: 80%;
+    padding: 7% 0;
+  }
+
+  .feature-section-img {
+    padding: 7%;
+  }
+
+  .cta-section {
+    width: inherit;
+    padding: 5% 10%;
+    margin: 5% auto;
+  }
+
+  .end-section-icon {
+    padding: 5%;
+  }
+
+  .end-img {
+    width: 100%;
+    padding: : auto;
+  }
+
+  .end-img-col {
+    position: relative;
+    width: 100%;
+  }
+
+  .end-icon-col {
+    width: inherit;
+    text-align: center;
+  }
+
+  .end-words-col {
+    width: inherit;
+  }
+}
